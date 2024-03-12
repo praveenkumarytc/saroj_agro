@@ -1,0 +1,23 @@
+{
+    "name": "Saroj Agro",
+    "short_name": "Saroj Agro",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "Fresh food online",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/app_logo.webp",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/app_logo.webp",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

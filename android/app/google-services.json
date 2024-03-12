@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "144318179109",
+    "project_id": "ekal-4c5fd",
+    "storage_bucket": "ekal-4c5fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144318179109:android:97f089606c2977c7e21ccc",
+        "android_client_info": {
+          "package_name": "com.ispl.zinggy_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144318179109-34aqg1f3rsaivd056cjsfm8nb1f73f3k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxRoPaw20XG5-W9IUTb38JooYCqu5RnBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144318179109-34aqg1f3rsaivd056cjsfm8nb1f73f3k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "144318179109-bas4oc4rc2l6a200pdk9ll7j7i9anui7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ispl.zinggyapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144318179109:android:97425f55860a19eae21ccc",
+        "android_client_info": {
+          "package_name": "com.ispl.zinggyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144318179109-34aqg1f3rsaivd056cjsfm8nb1f73f3k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxRoPaw20XG5-W9IUTb38JooYCqu5RnBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144318179109-34aqg1f3rsaivd056cjsfm8nb1f73f3k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "144318179109-bas4oc4rc2l6a200pdk9ll7j7i9anui7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ispl.zinggyapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

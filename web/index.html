@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    Fore more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+  <base href="/">
+  
+  <!-- 144318179109-bas4oc4rc2l6a200pdk9ll7j7i9anui7.apps.googleusercontent.com -->
+
+  <!-- YOUR_AUTH_CLIENT_ID -->
+  <meta name="google-signin-client_id" content="144318179109-34aqg1f3rsaivd056cjsfm8nb1f73f3k.apps.googleusercontent.com">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Saroj Agro">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="flutter_grocery">
+  <link rel="apple-touch-icon" href="icons/app_logo.webp">
+
+  <!-- Favicon -->
+
+  <link rel="icon" type="image/png" href="favicon.webp"/>
+
+
+  <title>Saroj Agro</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <style>.grecaptcha-badge { visibility: hidden;} </style>
+</head>
+<body>
+
+                                                        <!-- MAP_API_KEY -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMDuZiVysJ5kbu4LqlSssviIMOaRERS4o&callback=Function.prototype"></script>
+
+
+<script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("/firebase-messaging-sw.js");
+      });
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js');
+      });
+    }
+  </script>
+
+
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-messaging.js"></script>
+
+<div class="preloader">
+  <div class="preloader-container">
+    <img width="200" height="100" class="svg preloader-img" src="https://sarojagro.com/wp-content/uploads/2020/08/Saroj-Agro-landscape-1.gif" alt="">
+    <div class="loader"></div>
+  </div>
+  
+</div>
+<!-- Header -->
+<header class="header">
+  <div class="header-top-line"></div>
+  <div class="header-container d-flex align-items-center justify-content-between">
+    <div class="header-start d-flex gap-4 align-items-center">
+      <img class="logo" src="assets/app_logo.webp" alt="">
+      <div class="placeholder"></div>
+      <div class="placeholder"></div>
+      <div class="placeholder"></div>
+    </div>
+    <div class="header-end d-flex align-items-center gap-4">
+      <div class="placeholder placeholder-wide"></div>
+      <div class="placeholder"></div>
+      <div class="placeholder"></div>
+      <img src="assets/cart_icon.svg" alt="">
+      <img src="assets/menu_icon.svg" alt="">
+    </div>
+  </div>
+</header>
+
+<script>
+  // Check if localStorage is supported in the browser
+  if (typeof Storage !== "undefined") {
+    var itemValue = localStorage.getItem("flutter.theme");
+    document.body.classList.toggle("theme-dark", itemValue === "true");
+  }
+</script>
+
+<script>
+    const firebaseConfig = {
+  apiKey: "AIzaSyBa4HGKRIPl25grMkEoj-Fzl5vbQWyS39g",
+  authDomain: "ekal-4c5fd.firebaseapp.com",
+  projectId: "ekal-4c5fd",
+  storageBucket: "ekal-4c5fd.appspot.com",
+  messagingSenderId: "144318179109",
+  appId: "1:144318179109:web:071b3e7a8a705c99e21ccc",
+  measurementId: "G-8DBK6XLCPY"
+};
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+<script src="main.dart.js?version=7.2" type="application/javascript"></script>
+</body>
+</html>
